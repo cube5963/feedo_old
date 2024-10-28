@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE `feedback` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `eva` BOOLEAN NOT NULL,
+    `eva` INTEGER NOT NULL,
     `type` VARCHAR(191) NOT NULL,
 
     PRIMARY KEY (`id`)
