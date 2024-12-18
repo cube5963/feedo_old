@@ -1,23 +1,23 @@
 <template>
   <div id="slides" class="hidden">
-    <p class = "question">
+    <div class = "question">
       <label for="slides-comment">
         その他コメントがあればお書きください
       </label>
-    </p>
-    <p class = "question-sub">
+    </div>
+    <div class = "question-sub">
       (記入後、評価ボタンを押すと送信されます)
-    </p>
-    <p class = "form">
+    </div>
+    <div class = "form">
       <textarea
         id="slides-comment"
         name="slides-comment"
         v-model="c1"
       ></textarea>
-    </p>
-    <p class = "submit-btn">
+    </div>
+    <div class = "submit-btn">
       <input type="button" class="submit" @click="handleSubmitClick" value="送信"/>
-    </p>
+    </div>
   </div>
 </template>
   

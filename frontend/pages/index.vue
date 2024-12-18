@@ -1,25 +1,23 @@
 <template>
-  <body>
-    <p class = "question">
+    <div class = "question">
       <label>
         私達のピッチは
-        <p></p>
+        <div></div>
         どうでしたか？
       </label>
-    </p>
-    <p class = "good-btn">
+    </div>
+    <div class = "good-btn">
       <input type = "button" class = "good" @click = "handleGoodClick"/>
-    </p>
-    <p class = "good-face">
+    </div>
+    <div class = "good-face">
       <img class = "smile" src = "./../assets/image/good.png"/>
-    </p>
-    <p class  = "bad-btn">
+    </div>
+    <div class  = "bad-btn">
       <input type = "button" class = "bad" @click = "handleBadClick"/>
-    </p>
-    <p class = "bad-face">
+    </div>
+    <div class = "bad-face">
       <img class = "unsmile" src = "./../assets/image/bad.png"/>
-    </p>
-  </body>
+    </div>
 </template>
 
 <script lang="ts">

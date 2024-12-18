@@ -1,20 +1,20 @@
 <template>
   <div>
-    <p class = "question">
+    <div class = "question">
       <label>Thanks!</label>
-    </p>
-    <p class = "question">
+    </div>
+    <div class = "question">
       <label>下のボタンを</label>
-    </p>
-    <p class = "question">
+    </div>
+    <div class = "question">
       <label>押して</label>
-    </p>
-    <p class = "question">
+    </div>
+    <div class = "question">
       <label>詳細なご意見もお寄せください</label>
-    </p>
-    <p class = "question-sub">
-       (途中でやめることも可能です）
-    </p>
+    </div>
+    <div class = "question-sub">
+      (途中でやめることも可能です）
+    </div>
     <div class="lk">
       <div>
         <nuxt-link id="satisfied" class="nom" to="/form2"
@@ -30,10 +30,10 @@
         <nuxt-link id="satisfied" class="nom" to="/form4">資料について</nuxt-link>
       </div>
       <div>
-        <nuxt-link id="satisfied" class="nom" to="/form5">その他の回答</nuxt-link>
+        <nuxt-link id="satisfied" class="nom" to="/form5">その他の意見</nuxt-link>
       </div>
       <div>
-        <nuxt-link id="satisfied" class="nom exit" to="https://feedo0.wordpress.com">終了</nuxt-link>
+        <nuxt-link id="satisfied" class="nom exit" to="https://google.com">終了</nuxt-link>
       </div>
     </div>
   </div>
