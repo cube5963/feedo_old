@@ -6,7 +6,7 @@
       </label>
     </div>
     <div class = "question-sub">
-      (記入後、評価ボタンを押すと送信されます)
+      (記入後、送信ボタンを押すと送信されます)
     </div>
     <div class = "form">
       <textarea

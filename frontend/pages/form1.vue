@@ -18,16 +18,16 @@
     <div class="lk">
       <div>
         <nuxt-link id="satisfied" class="nom" to="/form2"
-          >内容の理解度について</nuxt-link
+          >店内の雰囲気について</nuxt-link
         >
       </div>
       <div>
         <nuxt-link id="satisfied" class="nom" to="/form3"
-          >ピッチスキルについて</nuxt-link
+          >店員の対応について</nuxt-link
         >
       </div>
       <div>
-        <nuxt-link id="satisfied" class="nom" to="/form4">資料について</nuxt-link>
+        <nuxt-link id="satisfied" class="nom" to="/form4">メニューについて</nuxt-link>
       </div>
       <div>
         <nuxt-link id="satisfied" class="nom" to="/form5">その他の意見</nuxt-link>

@@ -1,41 +1,41 @@
 <template>
-  <div id="understanding" class="hidden">
-    <div class = "question">
+  <p id="understanding" class="hidden">
+    <p class = "question">
       <label>
-        内容は理解できましたか？
+        店内の雰囲気はいかがですか？
       </label>
-    </div>
-    <div class = "good-btn">
+    </p>
+    <p class = "good-btn">
       <input type = "button" class = "good" @click = "handleGoodClick"/>
-    </div>
-    <div class = "good-face">
+  </p>
+    <p class = "good-face">
       <img class = "smile" src = "./../assets/image/good.png"/>
-    </div>
-    <div class  = "bad-btn">
+    </p>
+    <p class  = "bad-btn">
       <input type = "button" class = "bad" @click = "handleBadClick"/>
-    </div>
-    <div class = "bad-face">
+    </p>
+    <p class = "bad-face">
       <img class = "unsmile" src = "./../assets/image/bad.png"/>
-    </div>
+    </p>
 
-    <div class="sp">
-    <div class = "question">
+    <p class="sp">
+    <p class = "question">
       <label>
       具体的なコメントがあればお書きください
     </label>
-    </div>
-    <div class = "question-sub">
+  </p>
+    <p class = "question-sub">
       (記入後、評価ボタンを押すと送信されます)
-    </div>
-    <div class = "form">
+    </p>
+    <p class = "form">
       <textarea
       id="understanding-comment"
       name="understanding-comment"
       v-model="comment">
       </textarea>
-    </div>  
-    </div>  
-  </div>
+    </p>  
+  </p>  
+</p>
 </template>
 
 <script lang="ts">
