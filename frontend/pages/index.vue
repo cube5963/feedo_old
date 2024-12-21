@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { useRouter } from 'vue-router';
-import { postFeedback } from '~/assets/script/api';
+import { postFeedback } from './../assets/script/api';
 
 export default {
   setup()  {

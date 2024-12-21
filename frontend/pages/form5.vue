@@ -24,7 +24,7 @@
   <script lang="ts">
 import { ref } from "vue";
 import { useRouter } from "vue-router";
-import { postComment } from "~/assets/script/api";
+import { postComment } from "./../assets/script/api";
 
 export default {
   setup() {
