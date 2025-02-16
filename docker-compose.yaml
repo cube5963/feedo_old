@@ -16,4 +16,4 @@ services:
     image: cloudflare/cloudflared
     command: tunnel run
     environment:
-      - TUNNEL_TOKEN=eyJhIjoiOTI5YjQ0ODBlMzhkMmYwMTI2NzQzMDQ1OWM3NzUxMjciLCJ0IjoiOGM4OTBiZGYtNjYwZS00YjI5LTkzNGUtMTI3ZGYyZTlhNDI4IiwicyI6IllUSTJaV1EzWmpVdE5HWTBNeTAwTkdVNExUazRabVF0TVRGak9UQTJORFF4TWpnMSJ9
+      - TUNNEL_TOKEN=
